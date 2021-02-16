@@ -6,7 +6,10 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string statut = "monsieur";
+            string Name = "vincent";
+            int nbvisite = 1;
+            Console.WriteLine($"Bonjour {statut} {Name} vous etes venus nous rendre visite {nbvisite} fois !");
         }
     }
 }
